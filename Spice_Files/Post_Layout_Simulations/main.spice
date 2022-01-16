@@ -13,8 +13,8 @@ X2 Pdrive net1 Vout powerp
 
 ** opencircuitdesign pdks install
 .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt_mm
-.include /Users/nikhilm/ocd/basic_boot/Spice_Files/Extracted_Spice_Files/powern.spice
-.include /Users/nikhilm/ocd/basic_boot/Spice_Files/Extracted_Spice_Files/powerp.spice
+.include /Users/nikhim/ocd/Basic_Boost_Converter/Spice_Files/Extracted_Spice_Files/powern.spice
+.include /Users/nikhim/ocd/Basic_Boost_Converter/Spice_Files/Extracted_Spice_Files/powerp.spice
 .tran 0.1ms 1ms
 .save all
 

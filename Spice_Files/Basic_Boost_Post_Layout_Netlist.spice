@@ -29,9 +29,6 @@ X2 Pdrive net1 Vout powerp
 ** sym_path: /Users/nikhim/ocd/Basic_Boost_Converter/Spice_Files/powern.sym
 ** sch_path: /Users/nikhim/ocd/Basic_Boost_Converter/Spice_Files/powern.sch
 .subckt powern  NDRIVE VDDIN VSSOUT
-*.ipin NDRIVE
-*.iopin VDDIN
-*.iopin VSSOUT
 X0 VDDIN NDRIVE VSSOUT VSSOUT sky130_fd_pr__nfet_01v8 ad=1.6848e+16p pd=3.536e+10u as=1.6848e+16p ps=3.536e+10u w=2.025e+07u l=150000u
 X1 VDDIN NDRIVE VSSOUT VSSOUT sky130_fd_pr__nfet_01v8 ad=1.6848e+16p pd=3.536e+10u as=1.6848e+16p ps=3.536e+10u w=2.025e+07u l=150000u
 X2 VDDIN NDRIVE VSSOUT VSSOUT sky130_fd_pr__nfet_01v8 ad=1.6848e+16p pd=3.536e+10u as=1.6848e+16p ps=3.536e+10u w=2.025e+07u l=150000u
