@@ -1,0 +1,24 @@
+**.subckt Basic_Boost
+C1 Vout GND 4.375u m=1
+R1 Vout GND 6 m=1
+L1 Vin net1 3.125u m=1
+V1 Vin GND pwl 0 1 0.25ms 1 0.251ms 1.2 0.500ms 1.2 0.501ms 1.4
+V2 Ndrive GND PULSE (0 1 0 0.01us 0.01us 0.85us 1.25us)
+V3 Pdrive GND PULSE (0 1 0 0.01us 0.01us 0.85us 1.25us)
+X1 Ndrive net1 GND powern
+X2 Pdrive net1 Vout powerp
+**** begin user architecture code
+** manual skywater pdks install (with patches applied)
+* .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/models/sky130.lib.spice tt_mm
+
+** opencircuitdesign pdks install
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt_mm
+.include /Users/nikhilm/ocd/basic_boot/Spice_Files/Extracted_Spice_Files/powern.spice
+.include /Users/nikhilm/ocd/basic_boot/Spice_Files/Extracted_Spice_Files/powerp.spice
+.tran 0.1ms 1ms
+.save all
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end
