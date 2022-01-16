@@ -1,0 +1,30 @@
+magic
+tech sky130A
+timestamp 1641807651
+<< metal2 >>
+rect 11925 97565 14705 97630
+rect 11925 79175 11990 97565
+use power_pmos_2  power_pmos_2_0
+timestamp 1641806405
+transform 1 0 14985 0 1 85985
+box -345 -345 78830 12065
+use power_nmos_2  power_nmos_2_0
+timestamp 1641806343
+transform 0 1 345 -1 0 78830
+box -345 -345 78830 12065
+<< labels >>
+rlabel space 12335 79175 12335 79175 1 N_DRIVE
+port 1 n
+rlabel space 14640 97965 14640 97965 7 P_DRIVE
+port 2 w
+rlabel metal2 11925 97595 11925 97595 7 Drain_inductor
+port 3 w
+rlabel space 14640 87730 14640 87730 7 pmos_body
+port 4 w
+rlabel space 2080 79175 2080 79175 1 nmos_body
+port 5 n
+rlabel space 1625 79175 1625 79175 1 nmos_source_gnd
+port 6 n
+rlabel space 14640 87270 14640 87270 1 pmos_source_cout
+port 7 n
+<< end >>

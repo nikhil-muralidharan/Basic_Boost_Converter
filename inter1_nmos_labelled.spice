@@ -1,0 +1,105 @@
+* SPICE3 file created from inter1_nmos_labelled.ext - technology: sky130A
+
+.subckt nmos_final_middle a_n1240_19920# a_2520_19920# a_n840_20490# a_n610_20490#
++ a_n640_20370#
+X0 a_n610_20490# a_n640_20370# a_n840_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=2.6325e+14p pd=5.525e+08u as=2.6325e+14p ps=5.525e+08u w=2.025e+07u l=150000u
+X1 a_n840_20490# a_n640_20370# a_n610_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X2 a_n610_20490# a_n640_20370# a_n840_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X3 a_n610_20490# a_n640_20370# a_n840_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X4 a_n610_20490# a_n640_20370# a_n840_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X5 a_n840_20490# a_n640_20370# a_n610_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X6 a_n840_20490# a_n640_20370# a_n610_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X7 a_n840_20490# a_n640_20370# a_n610_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X8 a_n840_20490# a_n640_20370# a_n610_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X9 a_n610_20490# a_n640_20370# a_n840_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X10 a_n610_20490# a_n640_20370# a_n840_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X11 a_n840_20490# a_n640_20370# a_n610_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X12 a_n840_20490# a_n640_20370# a_n610_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X13 a_n610_20490# a_n640_20370# a_n840_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X14 a_n840_20490# a_n640_20370# a_n610_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X15 a_n610_20490# a_n640_20370# a_n840_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X16 a_n610_20490# a_n640_20370# a_n840_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X17 a_n840_20490# a_n640_20370# a_n610_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X18 a_n610_20490# a_n640_20370# a_n840_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X19 a_n840_20490# a_n640_20370# a_n610_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X20 a_n610_20490# a_n640_20370# a_n840_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X21 a_n840_20490# a_n640_20370# a_n610_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X22 a_n610_20490# a_n640_20370# a_n840_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X23 a_n840_20490# a_n640_20370# a_n610_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+X24 a_n610_20490# a_n640_20370# a_n840_20490# a_n1240_19920# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.025e+07u l=150000u
+C0 a_n840_20490# a_n610_20490# 87.38fF
+C1 a_n610_20490# a_n1240_19920# 8.65fF
+C2 a_n840_20490# a_n1240_19920# 9.69fF
+C3 a_n640_20370# a_n1240_19920# 10.31fF
+.ends
+
+.subckt inter1_nmos_labelled G D S B
+Xnmos_final_middle_0[0|0] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|0] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|0] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|0] B B D S G nmos_final_middle
+Xnmos_final_middle_0[0|1] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|1] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|1] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|1] B B D S G nmos_final_middle
+Xnmos_final_middle_0[0|2] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|2] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|2] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|2] B B D S G nmos_final_middle
+Xnmos_final_middle_0[0|3] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|3] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|3] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|3] B B D S G nmos_final_middle
+Xnmos_final_middle_0[0|4] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|4] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|4] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|4] B B D S G nmos_final_middle
+Xnmos_final_middle_0[0|5] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|5] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|5] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|5] B B D S G nmos_final_middle
+Xnmos_final_middle_0[0|6] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|6] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|6] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|6] B B D S G nmos_final_middle
+Xnmos_final_middle_0[0|7] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|7] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|7] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|7] B B D S G nmos_final_middle
+Xnmos_final_middle_0[0|8] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|8] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|8] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|8] B B D S G nmos_final_middle
+Xnmos_final_middle_0[0|9] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|9] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|9] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|9] B B D S G nmos_final_middle
+Xnmos_final_middle_0[0|10] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|10] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|10] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|10] B B D S G nmos_final_middle
+Xnmos_final_middle_0[0|11] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|11] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|11] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|11] B B D S G nmos_final_middle
+Xnmos_final_middle_0[0|12] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|12] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|12] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|12] B B D S G nmos_final_middle
+Xnmos_final_middle_0[0|13] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|13] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|13] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|13] B B D S G nmos_final_middle
+Xnmos_final_middle_0[0|14] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|14] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|14] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|14] B B D S G nmos_final_middle
+Xnmos_final_middle_0[0|15] B B D S G nmos_final_middle
+Xnmos_final_middle_0[1|15] B B D S G nmos_final_middle
+Xnmos_final_middle_0[2|15] B B D S G nmos_final_middle
+Xnmos_final_middle_0[3|15] B B D S G nmos_final_middle
+C0 S B 587.87fF
+C1 D B 647.49fF
+C2 G B 949.06fF
+.ends
+

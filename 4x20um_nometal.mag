@@ -1,0 +1,8 @@
+magic
+tech sky130A
+timestamp 1640190437
+use 20micron_nmos  20micron_nmos_0
+timestamp 1640190437
+transform 1 0 520 0 1 -10130
+box -395 10130 50 12290
+<< end >>
