@@ -1,0 +1,28 @@
+**.subckt untitled
+XM1 net1 Pdrive Vout Vout sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+C1 Vout GND 6.8u m=1
+L1 Vin net1 1u m=1
+R1 Vout GND 6 m=1
+XM2 net1 Ndrive GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+N Pdrive GND v=tanh(v(1))
+P Ndrive GND v=tanh(v(1))
+B1 Vin GND v=tanh(v(1))
+**** begin user architecture code
+** manual skywater pdks install (with patches applied)
+* .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/models/sky130.lib.spice tt_mm
+
+** opencircuitdesign pdks install
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt_mm
+
+
+
+blabla
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end
