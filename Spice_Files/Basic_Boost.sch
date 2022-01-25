@@ -24,9 +24,10 @@ value="** manual skywater pdks install (with patches applied)
 "
 spice_ignore=false}
 C {devices/code_shown.sym} -100 460 0 0 {name=SPICE only_toplevel=false value="
+.include /home/nikhil/Desktop/Basic_Boost_Converter/Spice_Files/Extracted_Spice_Files/powern.spice
+.include /home/nikhil/Desktop/Basic_Boost_Converter/Spice_Files/Extracted_Spice_Files/powerp.spice
 .tran 0.1ms 1ms
-.save all
-.option savecurrents"}
+.save all"}
 C {devices/capa.sym} 690 140 0 0 {name=C1
 m=1
 value=4.375u

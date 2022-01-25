@@ -1,4 +1,3 @@
-** sch_path: /Users/nikhim/ocd/Basic_Boost_Converter/Spice_Files/Basic_Boost.sch
 **.subckt Basic_Boost
 C1 Vout GND 4.375u m=1
 R1 Vout GND 6 m=1
@@ -26,8 +25,8 @@ X2 Pdrive net1 Vout powerp
 **.ends
 
 * expanding   symbol:  powern.sym # of pins=3
-** sym_path: /Users/nikhim/ocd/Basic_Boost_Converter/Spice_Files/powern.sym
-** sch_path: /Users/nikhim/ocd/Basic_Boost_Converter/Spice_Files/powern.sch
+** sym_path: /home/nikhil/Desktop/Basic_Boost_Converter/Spice_Files/powern.sym
+** sch_path: /home/nikhil/Desktop/Basic_Boost_Converter/Spice_Files/powern.sch
 .subckt powern  NDRIVE VDDIN VSSOUT
 X0 VDDIN NDRIVE VSSOUT VSSOUT sky130_fd_pr__nfet_01v8 ad=1.6848e+16p pd=3.536e+10u as=1.6848e+16p ps=3.536e+10u w=2.025e+07u l=150000u
 X1 VDDIN NDRIVE VSSOUT VSSOUT sky130_fd_pr__nfet_01v8 ad=1.6848e+16p pd=3.536e+10u as=1.6848e+16p ps=3.536e+10u w=2.025e+07u l=150000u
@@ -1632,8 +1631,8 @@ X1599 VDDIN NDRIVE VSSOUT VSSOUT sky130_fd_pr__nfet_01v8 ad=1.6848e+16p pd=3.536
 .ends
 
 * expanding   symbol:  powerp.sym # of pins=3
-** sym_path: /Users/nikhim/ocd/Basic_Boost_Converter/Spice_Files/powerp.sym
-** sch_path: /Users/nikhim/ocd/Basic_Boost_Converter/Spice_Files/powerp.sch
+** sym_path: /home/nikhil/Desktop/Basic_Boost_Converter/Spice_Files/powerp.sym
+** sch_path: /home/nikhil/Desktop/Basic_Boost_Converter/Spice_Files/powerp.sch
 .subckt powerp  Pdrive VDDIN VSSOUT
 *.ipin Pdrive
 *.iopin VSSOUT
