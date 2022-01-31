@@ -22,7 +22,7 @@ N 2860 -2620 2860 -2560 { lab=#net3}
 N 2930 -2800 3100 -2800 { lab=VDD}
 N 3100 -2800 3100 -2740 { lab=VDD}
 N 2930 -2710 3060 -2710 { lab=#net2}
-N 3100 -2680 3100 -2560 { lab=#net4}
+N 3100 -2680 3100 -2560 { lab=Vout}
 N 2820 -2530 2820 -2480 { lab=V_Bias}
 N 2820 -2480 3060 -2480 { lab=V_Bias}
 N 3060 -2530 3060 -2480 { lab=V_Bias}
@@ -38,6 +38,13 @@ N 2740 -2580 2970 -2580 { lab=Vin_Plus}
 N 2710 -2580 2740 -2580 { lab=Vin_Plus}
 N 2710 -2650 2740 -2650 { lab=Vin_Minus}
 N 2780 -2800 2780 -2770 { lab=VDD}
+N 2930 -2800 2930 -2770 { lab=VDD}
+N 3100 -2530 3100 -2500 { lab=GND}
+N 2860 -2530 2860 -2500 { lab=GND}
+N 2780 -2650 2780 -2620 { lab=#net3}
+N 2930 -2650 2930 -2620 { lab=#net3}
+N 3100 -2615 3175 -2615 { lab=Vout}
+N 3100 -2740 3100 -2710 { lab=VDD}
 C {devices/vdd.sym} 2940 -2880 0 0 {name=l1 lab=VDD}
 C {devices/gnd.sym} 2940 -2360 0 0 {name=l2 lab=GND}
 C {devices/ipin.sym} 2720 -2530 0 0 {name=p1 lab=V_Bias}
@@ -141,3 +148,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8_lvt
 spiceprefix=X
 }
+C {devices/opin.sym} 3170 -2615 0 0 {name=p4 lab=Vout}
+C {devices/vdd.sym} 2000 -2780 0 0 {name=l3 lab=VDD}
+C {devices/gnd.sym} 2000 -2720 0 0 {name=l4 lab=GND}
+C {devices/vsource.sym} 2000 -2750 0 0 {name=V1 value=1.8}

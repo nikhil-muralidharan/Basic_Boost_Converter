@@ -1,0 +1,21 @@
+v {xschem version=3.0.0 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=X1"}
+V {}
+S {}
+E {}
+L 4 2640 -2600 2640 -2520 {}
+L 4 2640 -2600 2790 -2600 {}
+L 4 2790 -2600 2790 -2520 {}
+L 4 2640 -2520 2790 -2520 {}
+B 5 2637.5 -2602.5 2642.5 -2597.5 {name=V_Bias
+dir=in}
+B 5 2637.5 -2522.5 2642.5 -2517.5 {name=Vin_Plus
+dir=in}
+B 5 2712.5 -2522.5 2717.5 -2517.5 {name=Vin_Minus
+dir=in}
+B 5 2787.5 -2562.5 2792.5 -2557.5 {name=Vout
+dir=out}
+T {@name} 2675 -2572.5 0 0 0.4 0.4 {}

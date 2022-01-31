@@ -1,0 +1,47 @@
+
+No compatibility mode selected!
+
+
+Circuit: **.subckt comparator_test_bed v_bias vin_plus vin_minus vout v_bias vin_plus vin_minus
+
+binary raw file "./Comparator_test_bed.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: vin_plus: no DC value, transient time 0 value used
+No. of Data Columns : 34  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net1                                 1.6166
+vdd                                        1.8
+x1.net2                                1.78522
+vout                                  0.023526
+x1.net3                               0.095476
+v_bias                                     0.5
+vin_minus                                  0.5
+vin_plus                                   0.4
+vin_minus#branch                             0
+vin_plus#branch                              0
+v_bias#branch                                0
+v.x1.v1#branch                    -9.10767e-08
+
+
+No. of Data Rows : 111
+
+Total analysis time (seconds) = 0.018
+
+Total elapsed time (seconds) = 57.319 
+
+Total DRAM available = 3721.973 MB.
+DRAM currently available = 1438.137 MB.
+Maximum ngspice program size =  748.906 MB.
+Current ngspice program size =  658.230 MB.
+
+Shared ngspice pages =    4.289 MB.
+Text (code) pages =    6.168 MB.
+Stack = 0 bytes.
+Library pages =  661.973 MB.
+
