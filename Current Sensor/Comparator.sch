@@ -152,3 +152,6 @@ C {devices/opin.sym} 3170 -2615 0 0 {name=p4 lab=Vout}
 C {devices/vdd.sym} 2000 -2780 0 0 {name=l3 lab=VDD}
 C {devices/gnd.sym} 2000 -2720 0 0 {name=l4 lab=GND}
 C {devices/vsource.sym} 2000 -2750 0 0 {name=V1 value=1.8}
+C {devices/code_shown.sym} 2230 -2690 0 0 {name=Initial only_toplevel=false value="
+.ic V(Vin_Minus)=0 V(Vin_Plus)=0 V(1)=0
+"}

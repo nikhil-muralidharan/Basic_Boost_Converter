@@ -1,0 +1,23 @@
+v {xschem version=3.0.0 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=X1}
+V {}
+S {type=subcircuit
+format="@name @pinlist @symname"
+template="name=X1"}
+E {}
+L 4 760 -2360 760 -2240 {}
+L 4 760 -2360 920 -2360 {}
+L 4 760 -2240 920 -2240 {}
+L 4 920 -2360 920 -2240 {}
+B 5 917.5 -2362.5 922.5 -2357.5 {name=VSEN
+dir=inout}
+B 5 917.5 -2242.5 922.5 -2237.5 {name=Vsen_DC
+dir=inout}
+B 5 757.5 -2302.5 762.5 -2297.5 {name=Power_Gate
+dir=in}
+B 5 757.5 -2362.5 762.5 -2357.5 {name=Power_Source
+dir=in}
+T {@name} 800 -2310 0 0 0.4 0.4 {}

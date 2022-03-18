@@ -1,0 +1,63 @@
+
+No compatibility mode selected!
+
+
+Circuit: **.subckt cs_alpha vsen vsen
+
+Warning : IC on non-existent node - 7, ignored
+   Please check line .ic v(7)=0 v(6)=0 v(12)=0
+
+Warning : IC on non-existent node - 6, ignored
+   Please check line .ic v(7)=0 v(6)=0 v(12)=0
+
+Warning : IC on non-existent node - 12, ignored
+   Please check line .ic v(7)=0 v(6)=0 v(12)=0
+
+binary raw file "./CS_Alpha.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: vlx: no DC value, transient time 0 value used
+Warning: vpdrive: no DC value, transient time 0 value used
+No. of Data Columns : 6055  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net11                                      0.5
+net1                                         0
+net3                                         0
+net6                               4.32908e-19
+vsen                              -1.13334e-25
+net10                               0.00113111
+net2                                       1.8
+net4                              -1.13362e-25
+net5                              -1.13362e-25
+vdd                                        1.8
+net12                             -3.42069e-18
+net7                                   1.79911
+net8                                   1.79978
+net9                               5.51067e-06
+vdd#branch                        -3.71684e-09
+vlx#branch                        -5.34258e-28
+vpdrive#branch                               0
+v_bias#branch                                0
+
+
+No. of Data Rows : 1338
+
+Total analysis time (seconds) = 138.866
+
+Total elapsed time (seconds) = 575.747 
+
+Total DRAM available = 3721.961 MB.
+DRAM currently available =  534.492 MB.
+Maximum ngspice program size =  750.668 MB.
+Current ngspice program size =  660.023 MB.
+
+Shared ngspice pages =    4.270 MB.
+Text (code) pages =    6.168 MB.
+Stack = 0 bytes.
+Library pages =  663.734 MB.
+

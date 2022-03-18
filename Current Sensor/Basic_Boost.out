@@ -1,0 +1,69 @@
+
+No compatibility mode selected!
+
+
+Circuit: **.subckt basic_boost vsen_dc vsen
+
+Warning : IC on non-existent node - 5, ignored
+   Please check line .ic v(5)=0 v(2)=0 v(7)=0
+
+Warning : IC on non-existent node - 2, ignored
+   Please check line .ic v(5)=0 v(2)=0 v(7)=0
+
+Warning : IC on non-existent node - 7, ignored
+   Please check line .ic v(5)=0 v(2)=0 v(7)=0
+
+binary raw file "./Basic_Boost.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v3: no DC value, transient time 0 value used
+Warning: v2: no DC value, transient time 0 value used
+Warning: v1: no DC value, transient time 0 value used
+No. of Data Columns : 8460  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vout                                  0.927136
+vin                                          1
+net1                                         1
+ndrive                                       0
+pdrive                                       0
+net10                                      0.5
+net2                                  0.981171
+vsen                                 0.0180469
+net3                                   0.58257
+net4                                       1.8
+net6                                 0.0180503
+vsen_dc                              0.0180503
+vdd                                        1.8
+net5                                         1
+net7                                   1.60671
+net8                                   1.56258
+net9                                  0.548625
+l1#branch                             0.154524
+vdd_18#branch                     -4.33247e-07
+v_bias#branch                                0
+v3#branch                                    0
+v2#branch                                    0
+v1#branch                            -0.154524
+
+
+No. of Data Rows : 16460
+
+Total analysis time (seconds) = 2438.15
+
+Total elapsed time (seconds) = 4530.031 
+
+Total DRAM available = 3721.961 MB.
+DRAM currently available =  808.387 MB.
+Maximum ngspice program size = 1112.855 MB.
+Current ngspice program size = 1022.855 MB.
+
+Shared ngspice pages =    4.320 MB.
+Text (code) pages =    6.168 MB.
+Stack = 0 bytes.
+Library pages = 1025.922 MB.
+
