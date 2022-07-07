@@ -1,0 +1,117 @@
+magic
+tech sky130A
+timestamp 1657099463
+<< nwell >>
+rect -185 110 75 270
+<< pmoslvt >>
+rect -30 140 5 240
+<< nmoslvt >>
+rect -30 -25 -15 75
+<< ndiff >>
+rect -80 60 -30 75
+rect -80 -10 -65 60
+rect -45 -10 -30 60
+rect -80 -25 -30 -10
+rect -15 60 35 75
+rect -15 -10 0 60
+rect 20 -10 35 60
+rect -15 -25 35 -10
+<< pdiff >>
+rect -80 225 -30 240
+rect -80 155 -65 225
+rect -45 155 -30 225
+rect -80 140 -30 155
+rect 5 225 55 240
+rect 5 155 20 225
+rect 40 155 55 225
+rect 5 140 55 155
+<< ndiffc >>
+rect -65 -10 -45 60
+rect 0 -10 20 60
+<< pdiffc >>
+rect -65 155 -45 225
+rect 20 155 40 225
+<< psubdiff >>
+rect -165 60 -115 75
+rect -165 -10 -150 60
+rect -130 -10 -115 60
+rect -165 -25 -115 -10
+<< nsubdiff >>
+rect -165 225 -115 240
+rect -165 155 -150 225
+rect -130 155 -115 225
+rect -165 140 -115 155
+<< psubdiffcont >>
+rect -150 -10 -130 60
+<< nsubdiffcont >>
+rect -150 155 -130 225
+<< poly >>
+rect -30 240 5 255
+rect -30 125 5 140
+rect -30 75 -15 125
+rect -30 -40 -15 -25
+rect -55 -50 -15 -40
+rect -55 -70 -45 -50
+rect -25 -70 -15 -50
+rect -55 -80 -15 -70
+<< polycont >>
+rect -45 -70 -25 -50
+<< locali >>
+rect -160 225 -120 235
+rect -160 155 -150 225
+rect -130 155 -120 225
+rect -160 145 -120 155
+rect -75 225 -35 235
+rect -75 155 -65 225
+rect -45 155 -35 225
+rect -75 145 -35 155
+rect 10 225 50 235
+rect 10 155 20 225
+rect 40 155 50 225
+rect 10 145 50 155
+rect 10 70 30 145
+rect -160 60 -120 70
+rect -160 -10 -150 60
+rect -130 -10 -120 60
+rect -160 -20 -120 -10
+rect -75 60 -35 70
+rect -75 -10 -65 60
+rect -45 -10 -35 60
+rect -75 -20 -35 -10
+rect -10 60 30 70
+rect -10 -10 0 60
+rect 20 -10 30 60
+rect -10 -20 30 -10
+rect 10 -35 30 -20
+rect -185 -50 -15 -40
+rect -185 -60 -45 -50
+rect -55 -70 -45 -60
+rect -25 -70 -15 -50
+rect 10 -55 75 -35
+rect -55 -80 -15 -70
+<< viali >>
+rect -150 155 -130 225
+rect -65 155 -45 225
+rect -150 -10 -130 60
+rect -65 -10 -45 60
+<< metal1 >>
+rect -185 225 75 235
+rect -185 155 -150 225
+rect -130 155 -65 225
+rect -45 155 75 225
+rect -185 145 75 155
+rect -185 60 75 70
+rect -185 -10 -150 60
+rect -130 -10 -65 60
+rect -45 -10 75 60
+rect -185 -20 75 -10
+<< labels >>
+rlabel locali -185 -50 -185 -50 7 in
+port 1 w
+rlabel locali 75 -45 75 -45 3 out
+port 2 e
+rlabel metal1 -185 190 -185 190 7 VP
+port 3 w
+rlabel metal1 -185 25 -185 25 7 VN
+port 4 w
+<< end >>

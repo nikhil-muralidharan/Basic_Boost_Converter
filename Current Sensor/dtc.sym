@@ -1,0 +1,44 @@
+v {xschem version=3.0.0 file_version=1.2 }
+G {}
+K {type="subcircuit"
+format="@name @pinlist @symname"
+template="name=X1"}
+V {}
+S {}
+E {}
+L 4 60 -160 60 -60 {}
+L 4 60 -60 200 -60 {}
+L 4 200 -160 200 -60 {}
+L 4 60 -160 200 -160 {}
+B 5 127.5 -162.5 132.5 -157.5 {name=VDD
+dir=in}
+B 5 57.5 -142.5 62.5 -137.5 {name=In1
+dir=in}
+B 5 57.5 -122.5 62.5 -117.5 {name=In2
+dir=in}
+B 5 57.5 -102.5 62.5 -97.5 {name=CLK
+dir=in}
+B 5 57.5 -82.5 62.5 -77.5 {name=S
+dir=in}
+B 5 197.5 -152.5 202.5 -147.5 {name=Pdrive
+dir=out}
+B 5 197.5 -132.5 202.5 -127.5 {name=Ndrive
+dir=out}
+B 5 197.5 -112.5 202.5 -107.5 {name=Pctrl
+dir=out}
+B 5 197.5 -92.5 202.5 -87.5 {name=Nctrl
+dir=out}
+B 5 197.5 -72.5 202.5 -67.5 {name=Vout_mux
+dir=out}
+T {VDD} 130 -150 0 0 0.1 0.1 {}
+T {In1} 70 -140 0 0 0.1 0.1 {}
+T {In2} 70 -120 0 0 0.1 0.1 {}
+T {CLK} 70 -100 0 0 0.1 0.1 {}
+T {S} 70 -80 0 0 0.1 0.1 {}
+T {Pdrive} 180 -150 0 0 0.1 0.1 {}
+T {Ndrive} 180 -130 0 0 0.1 0.1 {}
+T {Pctrl} 180 -110 0 0 0.1 0.1 {}
+T {Nctrl} 180 -90 0 0 0.1 0.1 {}
+T {Vout_mux} 170 -70 0 0 0.1 0.1 {}
+T {DTC} 85 -145 0 0 0.5 0.5 {}
+T {@name} 110 -100 0 0 0.4 0.4 {}

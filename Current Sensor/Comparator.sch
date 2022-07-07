@@ -16,12 +16,9 @@ N 2780 -2800 2930 -2800 { lab=VDD}
 N 2780 -2740 2780 -2680 { lab=#net1}
 N 2930 -2740 2930 -2680 { lab=#net2}
 N 2780 -2620 2930 -2620 { lab=#net3}
-N 2780 -2710 2860 -2710 { lab=#net1}
-N 2860 -2770 2860 -2710 { lab=#net1}
 N 2860 -2620 2860 -2560 { lab=#net3}
 N 2930 -2800 3100 -2800 { lab=VDD}
 N 3100 -2800 3100 -2740 { lab=VDD}
-N 2930 -2710 3060 -2710 { lab=#net2}
 N 3100 -2680 3100 -2560 { lab=Vout}
 N 2820 -2530 2820 -2480 { lab=V_Bias}
 N 2820 -2480 3060 -2480 { lab=V_Bias}
@@ -45,13 +42,18 @@ N 2780 -2650 2780 -2620 { lab=#net3}
 N 2930 -2650 2930 -2620 { lab=#net3}
 N 3100 -2615 3175 -2615 { lab=Vout}
 N 3100 -2740 3100 -2710 { lab=VDD}
-C {devices/vdd.sym} 2940 -2880 0 0 {name=l1 lab=VDD}
+N 2850 -2770 2850 -2720 {
+lab=#net1}
+N 2780 -2720 2850 -2720 {
+lab=#net1}
+N 2930 -2710 3060 -2710 {
+lab=#net2}
 C {devices/gnd.sym} 2940 -2360 0 0 {name=l2 lab=GND}
 C {devices/ipin.sym} 2720 -2530 0 0 {name=p1 lab=V_Bias}
 C {devices/ipin.sym} 2720 -2580 0 0 {name=p2 lab=Vin_Plus}
 C {devices/ipin.sym} 2720 -2650 0 0 {name=p3 lab=Vin_Minus}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 2800 -2770 0 1 {name=M1
-L=0.35
+L=0.45
 W=1
 nf=1
 mult=1
@@ -65,7 +67,7 @@ model=pfet_01v8_lvt
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 2910 -2770 0 0 {name=M2
-L=0.35
+L=0.45
 W=1
 nf=1
 mult=1
@@ -79,7 +81,7 @@ model=pfet_01v8_lvt
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 3080 -2710 0 0 {name=M3
-L=0.35
+L=0.45
 W=1
 nf=1
 mult=1
@@ -149,9 +151,4 @@ model=nfet_01v8_lvt
 spiceprefix=X
 }
 C {devices/opin.sym} 3170 -2615 0 0 {name=p4 lab=Vout}
-C {devices/vdd.sym} 2000 -2780 0 0 {name=l3 lab=VDD}
-C {devices/gnd.sym} 2000 -2720 0 0 {name=l4 lab=GND}
-C {devices/vsource.sym} 2000 -2750 0 0 {name=V1 value=1.8}
-C {devices/code_shown.sym} 2230 -2690 0 0 {name=Initial only_toplevel=false value="
-.ic V(Vin_Minus)=0 V(Vin_Plus)=0 V(1)=0
-"}
+C {devices/ipin.sym} 2940 -2870 1 0 {name=p5 lab=VDD}
