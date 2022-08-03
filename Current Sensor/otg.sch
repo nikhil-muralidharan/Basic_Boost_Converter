@@ -102,8 +102,6 @@ N -75 -480 35 -480 {
 lab=VDD}
 N 35 -480 35 -420 {
 lab=VDD}
-N -75 -375 -75 -345 {
-lab=Csense}
 N -240 -370 -125 -370 {
 lab=Pdriveb}
 N -125 -375 -125 -370 {
@@ -166,6 +164,7 @@ N -477.5 -110 -475 -110 {
 lab=C1}
 N -335 -285 -290 -285 {
 lab=CC}
+N -75 -405 -75 -375 {}
 C {devices/code_shown.sym} 275 -110 0 0 {name=SPICE only_toplevel=false value="
 .tran 1ms 10ms uic
 .save all"
@@ -224,10 +223,16 @@ model=nfet_01v8_lvt
 spiceprefix=X
 }
 C {devices/gnd.sym} -270 -115 0 0 {name=l9 lab=GND}
-C {sky130_fd_pr/nfet_01v8.sym} -95 -375 0 0 {name=M2
-L=0.15
-W=10
-nf=1 
+C {inverter.sym} -770 -320 0 0 {name=X4}
+C {inverter.sym} -650 -320 0 0 {name=X7}
+C {devices/opin.sym} -475 -110 0 0 {name=p6 lab=C1}
+C {devices/opin.sym} -290 -285 0 0 {name=p11 lab=CC}
+C {devices/vsource.sym} -520 -135 0 0 {name=Bcl value="V = V(Csense) > V(Vin_div) ? Vhigh : Vlow"}
+C {devices/gnd.sym} -520 -105 0 0 {name=l1 lab=GND}
+C {sky130_fd_pr/pfet_01v8_lvt.sym} -95 -375 0 0 {name=M2
+L=0.35
+W=1
+nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
@@ -235,12 +240,6 @@ as="'int((nf+2)/2) * W/nf * 0.29'"
 ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
 nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
-model=nfet_01v8
+model=pfet_01v8_lvt
 spiceprefix=X
 }
-C {inverter.sym} -770 -320 0 0 {name=X4}
-C {inverter.sym} -650 -320 0 0 {name=X7}
-C {devices/opin.sym} -475 -110 0 0 {name=p6 lab=C1}
-C {devices/opin.sym} -290 -285 0 0 {name=p11 lab=CC}
-C {devices/vsource.sym} -520 -135 0 0 {name=Bcl value="V = V(Csense) > V(Vin_div) ? Vhigh : Vlow"}
-C {devices/gnd.sym} -520 -105 0 0 {name=l1 lab=GND}

@@ -1,0 +1,62 @@
+magic
+tech sky130A
+timestamp 1659421436
+<< nwell >>
+rect -1305 375 -610 385
+rect -1305 220 -865 375
+<< locali >>
+rect -1090 25 -870 40
+rect -1090 5 -1075 25
+rect -1055 20 -870 25
+rect -610 20 -460 40
+rect -1055 5 -740 20
+rect -1090 0 -740 5
+rect -1090 -10 -1040 0
+rect -305 -60 -285 10
+rect -470 -80 -285 -60
+rect -470 -115 -450 -80
+rect 500 -85 520 20
+rect -205 -105 520 -85
+rect -205 -115 -185 -105
+rect -285 -135 -185 -115
+<< viali >>
+rect -1075 5 -1055 25
+<< metal1 >>
+rect -1305 255 -870 345
+rect -1305 60 -870 150
+rect -1090 30 -1040 40
+rect -1090 0 -1080 30
+rect -1050 0 -1040 30
+rect -1090 -10 -1040 0
+<< via1 >>
+rect -1080 25 -1050 30
+rect -1080 5 -1075 25
+rect -1075 5 -1055 25
+rect -1055 5 -1050 25
+rect -1080 0 -1050 5
+<< metal2 >>
+rect -1090 30 -1040 40
+rect -1090 0 -1080 30
+rect -1050 0 -1040 30
+rect -1090 -10 -1040 0
+use inverter_lvt  inverter_lvt_0
+timestamp 1658301810
+transform 1 0 185 0 1 80
+box -185 -80 75 300
+use inverter_lvt  inverter_lvt_1
+timestamp 1658301810
+transform 1 0 445 0 1 80
+box -185 -80 75 300
+use inverter_lvt  inverter_lvt_2
+timestamp 1658301810
+transform 1 0 -685 0 1 80
+box -185 -80 75 300
+use mux_lvt  mux_lvt_0
+timestamp 1659419658
+transform 1 0 -1125 0 1 -460
+box -180 -190 485 500
+use or_lvt  or_lvt_0
+timestamp 1659421205
+transform 1 0 -405 0 1 105
+box -235 -615 935 359
+<< end >>

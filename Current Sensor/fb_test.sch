@@ -35,7 +35,7 @@ lab=#net1}
 N 380 -540 380 -535 {
 lab=#net1}
 N 80 -180 170 -180 {
-lab=Ndrive_Final}
+lab=Ndrive1}
 N 360 -260 390 -260 {
 lab=#net2}
 N 360 -200 360 -170 {
@@ -62,7 +62,7 @@ N 285 -843.75 375 -843.75 { lab=Vout}
 N -15 -843.75 85 -843.75 { lab=VLX}
 N 165 -843.75 285 -843.75 { lab=Vout}
 N -15 -583.75 -15 -553.75 { lab=GND}
-N -90 -633.75 -50 -633.75 { lab=Ndrive_Final}
+N -90 -633.75 -50 -633.75 { lab=Ndrive1}
 N -220 -716.25 -220 -250 {
 lab=Vout}
 N -220 -250 162.5 -250 {
@@ -72,15 +72,15 @@ lab=Vout}
 N -165 -843.75 -75 -843.75 {
 lab=Vin}
 N -180 -633.75 -90 -633.75 {
-lab=Ndrive_Final}
+lab=Ndrive1}
 N 50 -900 50 -400 {
-lab=Pdrive_final}
+lab=Pdrive1}
 N 50 -900 123.75 -900 {
-lab=Pdrive_final}
+lab=Pdrive1}
 N 123.75 -900 125 -900 {
-lab=Pdrive_final}
+lab=Pdrive1}
 N 125 -900 125 -883.75 {
-lab=Pdrive_final}
+lab=Pdrive1}
 N -221.25 -716.25 441.25 -716.25 {
 lab=Vout}
 N 441.25 -782.5 441.25 -716.25 {
@@ -98,15 +98,15 @@ lab=VLX}
 N -105 -736.25 -15 -736.25 {
 lab=VLX}
 N -40 -500 50 -500 {
-lab=Pdrive_final}
+lab=Pdrive1}
 N 100 -290 100 -180 {
-lab=Ndrive_Final}
+lab=Ndrive1}
 N -160 -290 100 -290 {
-lab=Ndrive_Final}
+lab=Ndrive1}
 N -160 -632.5 -160 -290 {
-lab=Ndrive_Final}
+lab=Ndrive1}
 N -160 -633.75 -160 -632.5 {
-lab=Ndrive_Final}
+lab=Ndrive1}
 N 441.25 -783.75 501.25 -783.75 {
 lab=Vout}
 N 375 -843.75 426.25 -843.75 {
@@ -150,11 +150,11 @@ lab=Vsen}
 N -380 -260 -320 -260 {
 lab=Vsendc}
 N -600 -450 50 -450 {
-lab=Pdrive_final}
+lab=Pdrive1}
 N -600 -450 -600 -320 {
-lab=Pdrive_final}
+lab=Pdrive1}
 N -600 -320 -540 -320 {
-lab=Pdrive_final}
+lab=Pdrive1}
 N -475 -440 90 -440 {
 lab=#net1}
 N -475 -440 -475 -380 {
@@ -297,66 +297,10 @@ N 1221.25 81.25 1221.25 128.75 {
 lab=VLX}
 N 1221.25 128.75 1245 128.75 {
 lab=VLX}
-N 1960 -250 1960 -110 {
-lab=Pdrive1}
-N 2020 -250 2020 -110 {
-lab=Pdrive_final}
-N 1990 -130 1990 -110 {
-lab=Pdrive_final}
-N 2070 -130 2070 -70 {
-lab=GND}
-N 1990 -250 1990 -220 {
-lab=Pdrive_final}
-N 1960 -500 1960 -360 {
-lab=Pdrive}
-N 2020 -500 2020 -360 {
-lab=Pdrive_final}
-N 1990 -380 1990 -360 {
-lab=Pdrive_final}
-N 2070 -380 2070 -320 {
-lab=GND}
-N 1990 -500 1990 -470 {
-lab=Pdrive_final}
-N 1900 -470 1900 -220 {
-lab=#net6}
-N 2070 -320 2070 -130 {
-lab=GND}
-N 2020 -430 2250 -430 {
-lab=Pdrive_final}
 N 2020 -180 2250 -180 {
-lab=Pdrive_final}
+lab=Pdrive1}
 N 2250 -430 2250 -180 {
-lab=Pdrive_final}
-N 1990 -540 2290 -540 {
-lab=#net7}
-N 2290 -540 2290 -80 {
-lab=#net7}
-N 2030 -80 2290 -80 {
-lab=#net7}
-N 2030 -80 2030 -70 {
-lab=#net7}
-N 1990 -70 2030 -70 {
-lab=#net7}
-N 2290 -450 2400 -450 {
-lab=#net7}
-N 1805 -300 1990 -300 {
-lab=#net8}
-N 1990 -320 1990 -300 {
-lab=#net8}
-N 1990 -320 1990 -290 {
-lab=#net8}
-N 1760 -440 1900 -440 {
-lab=#net6}
-N 1760 -440 1760 -340 {
-lab=#net6}
-N 1640 -70 1990 -70 {
-lab=#net7}
-N 1640 -300 1640 -70 {
-lab=#net7}
-N 1640 -300 1720 -300 {
-lab=#net7}
-N 1620 -430 1960 -430 {
-lab=Pdrive}
+lab=Pdrive1}
 N 1600 -180 1960 -180 {
 lab=Pdrive1}
 N 1430 -180 1430 120 {
@@ -370,85 +314,17 @@ lab=Pdrive1}
 N 1410 117.5 1410 118.75 {
 lab=Pdrive1}
 N 2328.75 -627.5 2328.75 -298.75 {
-lab=Pdrive_final}
+lab=Pdrive1}
 N 50 -628.75 2328.75 -627.5 {
-lab=Pdrive_final}
-N 1661.25 -481.25 1721.25 -481.25 {
-lab=Pdrive}
-N 1661.25 -481.25 1661.25 -430 {
-lab=Pdrive}
-N 1876.25 -388.75 1900 -388.75 {
-lab=#net6}
-N 1972.5 432.5 1972.5 572.5 {
-lab=Ndrive1}
-N 2032.5 432.5 2032.5 572.5 {
-lab=Ndrive_Final}
-N 2002.5 552.5 2002.5 572.5 {
-lab=Ndrive_Final}
-N 2082.5 552.5 2082.5 612.5 {
-lab=GND}
-N 2002.5 432.5 2002.5 462.5 {
-lab=Ndrive_Final}
-N 1972.5 182.5 1972.5 322.5 {
-lab=Ndrive}
-N 2032.5 182.5 2032.5 322.5 {
-lab=Ndrive_Final}
-N 2002.5 302.5 2002.5 322.5 {
-lab=Ndrive_Final}
-N 2082.5 302.5 2082.5 362.5 {
-lab=GND}
-N 2002.5 182.5 2002.5 212.5 {
-lab=Ndrive_Final}
-N 1912.5 212.5 1912.5 462.5 {
-lab=#net9}
-N 2082.5 362.5 2082.5 552.5 {
-lab=GND}
-N 2032.5 252.5 2262.5 252.5 {
-lab=Ndrive_Final}
+lab=Pdrive1}
 N 2032.5 502.5 2262.5 502.5 {
-lab=Ndrive_Final}
+lab=Ndrive1}
 N 2262.5 252.5 2262.5 502.5 {
-lab=Ndrive_Final}
+lab=Ndrive1}
 N 2262.5 382.5 2342.5 382.5 {
-lab=Ndrive_Final}
-N 2002.5 142.5 2302.5 142.5 {
-lab=#net7}
-N 2302.5 142.5 2302.5 602.5 {
-lab=#net7}
-N 2042.5 602.5 2302.5 602.5 {
-lab=#net7}
-N 2042.5 602.5 2042.5 612.5 {
-lab=#net7}
-N 2002.5 612.5 2042.5 612.5 {
-lab=#net7}
-N 2302.5 232.5 2412.5 232.5 {
-lab=#net7}
-N 1817.5 382.5 2002.5 382.5 {
-lab=#net10}
-N 2002.5 362.5 2002.5 382.5 {
-lab=#net10}
-N 2002.5 362.5 2002.5 392.5 {
-lab=#net10}
-N 1772.5 242.5 1912.5 242.5 {
-lab=#net9}
-N 1772.5 242.5 1772.5 342.5 {
-lab=#net9}
-N 1652.5 612.5 2002.5 612.5 {
-lab=#net7}
-N 1652.5 382.5 1652.5 612.5 {
-lab=#net7}
-N 1652.5 382.5 1732.5 382.5 {
-lab=#net7}
-N 1632.5 252.5 1972.5 252.5 {
-lab=Ndrive}
+lab=Ndrive1}
 N 1612.5 502.5 1972.5 502.5 {
 lab=Ndrive1}
-N 1673.75 201.25 1733.75 201.25 {
-lab=Ndrive}
-N 1673.75 201.25 1673.75 252.5 {
-lab=Ndrive}
-N 1888.75 293.75 1912.5 293.75 {
-lab=#net9}
 N 1427.5 138.75 1427.5 500 {
 lab=Ndrive1}
 N 1427.5 500 1590 500 {
@@ -458,43 +334,27 @@ lab=Ndrive1}
 N 1590 502.5 1613.75 502.5 {
 lab=Ndrive1}
 N -117.5 816.25 2338.75 818.75 {
-lab=Ndrive_Final}
+lab=Ndrive1}
 N -117.5 -110 -117.5 816.25 {
-lab=Ndrive_Final}
+lab=Ndrive1}
 N -117.5 -110 130 -110 {
-lab=Ndrive_Final}
+lab=Ndrive1}
 N 130 -180 130 -110 {
-lab=Ndrive_Final}
+lab=Ndrive1}
 N 2338.75 387.5 2338.75 818.75 {
-lab=Ndrive_Final}
+lab=Ndrive1}
 N 2338.75 382.5 2338.75 387.5 {
-lab=Ndrive_Final}
+lab=Ndrive1}
 N 2250 -297.5 2327.5 -297.5 {
-lab=Pdrive_final}
+lab=Pdrive1}
 N 2327.5 -297.5 2328.75 -297.5 {
-lab=Pdrive_final}
+lab=Pdrive1}
 N 2328.75 -298.75 2328.75 -297.5 {
-lab=Pdrive_final}
-N 2397.5 -450 2397.5 206.25 {
-lab=#net7}
-N 2397.5 206.25 2397.5 232.5 {
-lab=#net7}
-N 1990 -470 2020 -470 {
-lab=Pdrive_final}
-N 1990 -380 2020 -380 {
-lab=Pdrive_final}
-N 1990 -220 2020 -220 {
-lab=Pdrive_final}
-N 1990 -130 2020 -130 {
-lab=Pdrive_final}
-N 2002.5 212.5 2032.5 212.5 {
-lab=Ndrive_Final}
-N 2002.5 302.5 2032.5 302.5 {
-lab=Ndrive_Final}
-N 2002.5 552.5 2032.5 552.5 {
-lab=Ndrive_Final}
-N 2002.5 462.5 2032.5 462.5 {
-lab=Ndrive_Final}
+lab=Pdrive1}
+N 1960 -180 2020 -180 {
+lab=Pdrive1}
+N 1972.5 502.5 2032.5 502.5 {
+lab=Ndrive1}
 C {otg.sym} 390 -350 0 0 {name=X1}
 C {zcd.sym} 9140 520 0 0 {name=X2}
 C {devices/opin.sym} 360 -330 3 0 {name=p1 lab=ZCD}
@@ -504,15 +364,10 @@ C {devices/opin.sym} 640 -260 0 0 {name=p4 lab=Ttrig}
 C {devices/opin.sym} 380 -190 0 0 {name=p5 lab=ZCDB}
 C {devices/vsource.sym} 380 -505 0 0 {name=VDD value=1.8}
 C {devices/gnd.sym} 380 -475 0 0 {name=l2 lab=GND}
-C {devices/vsource.sym} 1632.5 282.5 0 0 {name=V2 value= "PULSE (0 1.8 0 0.01us 0.01us 0.875us 1.25us)"}
-C {devices/gnd.sym} 1632.5 312.5 0 0 {name=l3 lab=GND}
-C {devices/opin.sym} 80 -180 2 0 {name=p6 lab=Ndrive_Final}
 C {devices/vsource.sym} 390 -200 0 0 {name=V_Comparator_bias value=0.5}
 C {devices/vsource.sym} 360 -230 0 0 {name=V_ref value=0.8}
 C {devices/gnd.sym} 390 -170 0 0 {name=l4 lab=GND}
 C {inverter.sym} -10 -400 0 0 {name=X3}
-C {devices/vsource.sym} 1620 -400 0 0 {name=V4 value= "PULSE (0 1.8 0 0.01us 0.01us 0.375us 1.25us)"}
-C {devices/gnd.sym} 1620 -370 0 0 {name=l5 lab=GND}
 C {devices/opin.sym} 283.75 -440 3 0 {name=p7 lab=PDRIVEB}
 C {devices/code.sym} -378.75 -593.75 0 0 {name=TT_MODELS
 only_toplevel=true
@@ -551,7 +406,6 @@ C {devices/gnd.sym} 285 -783.75 0 0 {name=l7 lab=GND}
 C {devices/gnd.sym} 375 -723.75 0 0 {name=l8 lab=GND}
 C {devices/opin.sym} -165 -843.75 2 0 {name=p8 lab=Vin}
 C {devices/opin.sym} -105 -736.25 2 0 {name=p10 lab=VLX}
-C {devices/opin.sym} -40 -500 2 0 {name=p11 lab=Pdrive_final}
 C {devices/opin.sym} 501.25 -783.75 0 0 {name=p9 lab=Vout}
 C {devices/opin.sym} 580 -200 0 0 {name=p12 lab=C1}
 C {devices/opin.sym} 520 -160 0 0 {name=p13 lab=CC}
@@ -583,127 +437,3 @@ C {devices/opin.sym} 1445 158.75 0 0 {name=p23 lab=Pctrl}
 C {devices/opin.sym} 1445 178.75 0 0 {name=p24 lab=Nctrl}
 C {devices/opin.sym} 1445 198.75 0 0 {name=p25 lab=Vout_mux}
 C {devices/gnd.sym} 1245 148.75 0 0 {name=l11 lab=GND}
-C {sky130_fd_pr/nfet_01v8_lvt.sym} 1990 -90 3 0 {name=M1
-L=0.15
-W=1
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8_lvt
-spiceprefix=X
-}
-C {sky130_fd_pr/pfet_01v8_lvt.sym} 1990 -270 1 0 {name=M2
-L=0.35
-W=1
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8_lvt
-spiceprefix=X
-}
-C {devices/gnd.sym} 2070 -70 0 0 {name=l12 lab=GND}
-C {inverter.sym} 1660 -300 0 0 {name=X9}
-C {sky130_fd_pr/nfet_01v8_lvt.sym} 1990 -340 3 0 {name=M3
-L=0.15
-W=1
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8_lvt
-spiceprefix=X
-}
-C {sky130_fd_pr/pfet_01v8_lvt.sym} 1990 -520 1 0 {name=M4
-L=0.35
-W=1
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8_lvt
-spiceprefix=X
-}
-C {devices/opin.sym} 1721.25 -481.25 0 0 {name=p27 lab=Pdrive}
-C {devices/vsource.sym} 1876.25 -358.75 0 0 {name=V_DD value=1.8}
-C {devices/gnd.sym} 1876.25 -328.75 0 0 {name=l13 lab=GND}
-C {sky130_fd_pr/nfet_01v8_lvt.sym} 2002.5 592.5 3 0 {name=M5
-L=0.15
-W=1
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8_lvt
-spiceprefix=X
-}
-C {sky130_fd_pr/pfet_01v8_lvt.sym} 2002.5 412.5 1 0 {name=M6
-L=0.35
-W=1
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8_lvt
-spiceprefix=X
-}
-C {devices/gnd.sym} 2082.5 612.5 0 0 {name=l15 lab=GND}
-C {inverter.sym} 1672.5 382.5 0 0 {name=X10}
-C {sky130_fd_pr/nfet_01v8_lvt.sym} 2002.5 342.5 3 0 {name=M7
-L=0.15
-W=1
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8_lvt
-spiceprefix=X
-}
-C {sky130_fd_pr/pfet_01v8_lvt.sym} 2002.5 162.5 1 0 {name=M8
-L=0.35
-W=1
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8_lvt
-spiceprefix=X
-}
-C {devices/opin.sym} 1733.75 201.25 0 0 {name=p29 lab=Ndrive}
-C {devices/vsource.sym} 1888.75 323.75 0 0 {name=V_DD4 value=1.8}
-C {devices/gnd.sym} 1888.75 353.75 0 0 {name=l16 lab=GND}
-C {devices/gnd.sym} 2412.5 292.5 0 0 {name=l14 lab=GND}
-C {devices/vsource.sym} 2412.5 262.5 0 0 {name=V3 value="pwl 0 0 0.08ms 0 0.0801ms 1 0.101ms 1"}

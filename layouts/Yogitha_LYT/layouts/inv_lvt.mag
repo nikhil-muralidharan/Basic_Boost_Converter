@@ -1,0 +1,114 @@
+magic
+tech sky130A
+timestamp 1657702250
+<< nwell >>
+rect -160 60 145 190
+<< pmoslvt >>
+rect 35 80 70 170
+<< nmoslvt >>
+rect 35 -65 50 25
+<< ndiff >>
+rect -35 10 35 25
+rect -35 -50 -10 10
+rect 15 -50 35 10
+rect -35 -65 35 -50
+rect 50 10 120 25
+rect 50 -50 75 10
+rect 100 -50 120 10
+rect 50 -65 120 -50
+<< pdiff >>
+rect -35 155 35 170
+rect -35 95 -10 155
+rect 15 95 35 155
+rect -35 80 35 95
+rect 70 155 125 170
+rect 70 95 85 155
+rect 110 95 125 155
+rect 70 80 125 95
+<< ndiffc >>
+rect -10 -50 15 10
+rect 75 -50 100 10
+<< pdiffc >>
+rect -10 95 15 155
+rect 85 95 110 155
+<< psubdiff >>
+rect -140 15 -70 25
+rect -140 -50 -115 15
+rect -95 -50 -70 15
+rect -140 -65 -70 -50
+<< nsubdiff >>
+rect -130 155 -65 170
+rect -130 95 -110 155
+rect -85 95 -65 155
+rect -130 80 -65 95
+<< psubdiffcont >>
+rect -115 -50 -95 15
+<< nsubdiffcont >>
+rect -110 95 -85 155
+<< poly >>
+rect 35 170 70 185
+rect 35 40 70 80
+rect 35 25 50 40
+rect 35 -80 50 -65
+rect 10 -90 50 -80
+rect 10 -110 20 -90
+rect 40 -110 50 -90
+rect 10 -120 50 -110
+<< polycont >>
+rect 20 -110 40 -90
+<< locali >>
+rect -115 155 -80 165
+rect -115 95 -110 155
+rect -85 95 -80 155
+rect -115 85 -80 95
+rect -20 155 25 165
+rect -20 95 -10 155
+rect 15 95 25 155
+rect -20 85 25 95
+rect 80 155 115 165
+rect 80 95 85 155
+rect 110 95 115 155
+rect 80 85 115 95
+rect 90 20 110 85
+rect -125 15 -85 20
+rect -125 -50 -115 15
+rect -95 -50 -85 15
+rect -125 -60 -85 -50
+rect -20 10 25 20
+rect -20 -50 -10 10
+rect 15 -50 25 10
+rect -20 -60 25 -50
+rect 65 10 110 20
+rect 65 -50 75 10
+rect 100 -50 110 10
+rect 65 -60 110 -50
+rect 90 -80 110 -60
+rect -160 -90 50 -80
+rect -160 -105 20 -90
+rect 10 -110 20 -105
+rect 40 -110 50 -90
+rect 90 -105 145 -80
+rect 10 -120 50 -110
+<< viali >>
+rect -110 95 -85 155
+rect -10 95 15 155
+rect -115 -50 -95 15
+rect -10 -50 15 10
+<< metal1 >>
+rect -160 155 145 165
+rect -160 95 -110 155
+rect -85 95 -10 155
+rect 15 95 145 155
+rect -160 85 145 95
+rect -160 15 145 20
+rect -160 -50 -115 15
+rect -95 10 145 15
+rect -95 -50 -10 10
+rect 15 -50 145 10
+rect -160 -60 145 -50
+<< labels >>
+rlabel metal1 -155 115 -155 115 7 VDD
+rlabel metal1 -160 -25 -160 -25 7 GND
+rlabel locali -160 -95 -160 -95 3 A
+rlabel locali 145 -95 145 -95 7 Y
+<< end >>
