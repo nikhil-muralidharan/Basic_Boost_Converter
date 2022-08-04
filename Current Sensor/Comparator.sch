@@ -53,7 +53,7 @@ C {devices/ipin.sym} 2720 -2530 0 0 {name=p1 lab=V_Bias}
 C {devices/ipin.sym} 2720 -2580 0 0 {name=p2 lab=Vin_Plus}
 C {devices/ipin.sym} 2720 -2650 0 0 {name=p3 lab=Vin_Minus}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 2800 -2770 0 1 {name=M1
-L=0.45
+L=0.35
 W=1
 nf=1
 mult=1
@@ -67,7 +67,7 @@ model=pfet_01v8_lvt
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 2910 -2770 0 0 {name=M2
-L=0.45
+L=0.35
 W=1
 nf=1
 mult=1
@@ -81,7 +81,7 @@ model=pfet_01v8_lvt
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 3080 -2710 0 0 {name=M3
-L=0.45
+L=0.35
 W=1
 nf=1
 mult=1

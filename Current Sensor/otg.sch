@@ -118,26 +118,6 @@ N -240 -630 -240 -370 {
 lab=Pdriveb}
 N -520 -165 -430 -165 {
 lab=C1}
-N -300 -195 -270 -195 {
-lab=Csense}
-N -300 -195 -300 -70 {
-lab=Csense}
-N -700 -70 -300 -70 {
-lab=Csense}
-N -700 -205 -700 -70 {
-lab=Csense}
-N -700 -205 -670 -205 {
-lab=Csense}
-N -805 -320 -805 -125 {
-lab=Vin_div}
-N -805 -125 -670 -125 {
-lab=Vin_div}
-N -605 -360 -605 -230 {
-lab=VDD}
-N -605 -230 -595 -230 {
-lab=VDD}
-N -595 -230 -595 -205 {
-lab=VDD}
 N -390 -320 -390 -195 {
 lab=#net1}
 N -625 -320 -590 -320 {
@@ -148,12 +128,6 @@ N -670 -360 -550 -360 {
 lab=VDD}
 N -75 -420 -75 -405 {
 lab=VDD}
-N -595 -125 -595 -10 {
-lab=Comparator_bias}
-N -595 -10 -5 -10 {
-lab=Comparator_bias}
-N -5 -195 -5 -10 {
-lab=Comparator_bias}
 N -493.75 -165 -493.75 -109.375 {
 lab=C1}
 N -493.75 -109.375 -477.5 -109.375 {
@@ -164,7 +138,8 @@ N -477.5 -110 -475 -110 {
 lab=C1}
 N -335 -285 -290 -285 {
 lab=CC}
-N -75 -405 -75 -375 {}
+N -75 -405 -75 -375 {
+lab=VDD}
 C {devices/code_shown.sym} 275 -110 0 0 {name=SPICE only_toplevel=false value="
 .tran 1ms 10ms uic
 .save all"
