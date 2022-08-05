@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1659421436
+timestamp 1659700335
 << nwell >>
 rect -1305 375 -610 385
 rect -1305 220 -865 375
@@ -39,6 +39,10 @@ rect -1090 30 -1040 40
 rect -1090 0 -1080 30
 rect -1050 0 -1040 30
 rect -1090 -10 -1040 0
+use and_lvt  and_lvt_0
+timestamp 1659421205
+transform 1 0 -481 0 1 -510
+box -160 0 500 405
 use inverter_lvt  inverter_lvt_0
 timestamp 1658301810
 transform 1 0 185 0 1 80
@@ -51,12 +55,20 @@ use inverter_lvt  inverter_lvt_2
 timestamp 1658301810
 transform 1 0 -685 0 1 80
 box -185 -80 75 300
+use inverter_lvt  inverter_lvt_3
+timestamp 1658301810
+transform 1 0 190 0 1 -430
+box -185 -80 75 300
+use inverter_lvt  inverter_lvt_4
+timestamp 1658301810
+transform 1 0 450 0 1 -430
+box -185 -80 75 300
 use mux_lvt  mux_lvt_0
 timestamp 1659419658
 transform 1 0 -1125 0 1 -460
 box -180 -190 485 500
 use or_lvt  or_lvt_0
-timestamp 1659421205
+timestamp 1659680843
 transform 1 0 -405 0 1 105
-box -235 -615 935 359
+box -205 -105 410 280
 << end >>
