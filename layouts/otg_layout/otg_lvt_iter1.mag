@@ -1,0 +1,18 @@
+magic
+tech sky130A
+timestamp 1659680766
+<< nwell >>
+rect -475 285 0 510
+<< locali >>
+rect -75 -25 -55 0
+rect 250 -25 270 10
+rect -75 -45 270 -25
+use comparator_lvt_otg  comparator_lvt_otg_0
+timestamp 1659595967
+transform 1 0 140 0 1 335
+box -140 -335 470 175
+use trgate_lvt_otg  trgate_lvt_otg_0
+timestamp 1659680584
+transform 1 0 -95 0 1 175
+box -375 -175 95 320
+<< end >>

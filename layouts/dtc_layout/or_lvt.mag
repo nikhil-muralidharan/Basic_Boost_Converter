@@ -1,11 +1,8 @@
 magic
 tech sky130A
-timestamp 1659421205
-<< error_s >>
-rect 321 280 925 359
+timestamp 1659680843
 << nwell >>
-rect -205 275 925 280
-rect -205 115 405 275
+rect -205 115 405 280
 << pmoslvt >>
 rect -55 145 -20 245
 rect 30 145 65 245
@@ -214,18 +211,6 @@ rect -70 -35 55 35
 rect 75 -35 200 35
 rect 220 -35 405 35
 rect -205 -45 405 -35
-use and_lvt  and_lvt_0
-timestamp 1659421205
-transform 1 0 -75 0 1 -615
-box -160 0 500 405
-use inverter_lvt  inverter_lvt_0
-timestamp 1658301810
-transform 1 0 860 0 1 -535
-box -185 -80 75 300
-use inverter_lvt  inverter_lvt_1
-timestamp 1658301810
-transform 1 0 600 0 1 -535
-box -185 -80 75 300
 << labels >>
 rlabel metal1 -205 195 -205 195 7 VP
 port 1 w
