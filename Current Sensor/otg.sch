@@ -160,16 +160,6 @@ C {devices/opin.sym} -830 -320 2 0 {name=p2 lab=Vin_div}
 C {devices/ipin.sym} -75 -195 0 0 {name=p3 lab=Comparator_bias}
 C {devices/ipin.sym} -655 -530 0 0 {name=p4 lab=Pdriveb}
 C {devices/ipin.sym} -467.5 -410 0 0 {name=p5 lab=ZCD}
-C {devices/res.sym} -765 -395 0 0 {name=R1
-value=10k
-footprint=1206
-device=resistor
-m=1}
-C {devices/res.sym} -765 -250 0 0 {name=R2
-value=10k
-footprint=1206
-device=resistor
-m=1}
 C {devices/gnd.sym} -765 -195 0 0 {name=l7 lab=GND}
 C {devices/ipin.sym} -810 -460 0 0 {name=p7 lab=Vin}
 C {devices/capa.sym} -270 -165 0 0 {name=C1
@@ -218,3 +208,17 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X
 }
+C {sky130_fd_pr/res_high_po_5p73.sym} -765 -395 0 0 {name=R1
+W=5.73
+L=5
+model=res_high_po_5p73
+spiceprefix=X
+mult=1}
+C {devices/gnd.sym} -785 -395 0 0 {name=l2 lab=GND}
+C {sky130_fd_pr/res_high_po_5p73.sym} -765 -250 0 0 {name=R2
+W=5.73
+L=5
+model=res_high_po_5p73
+spiceprefix=X
+mult=1}
+C {devices/gnd.sym} -785 -250 0 0 {name=l3 lab=GND}
