@@ -261,7 +261,7 @@ C {devices/opin.sym} -210 -50 0 0 {name=p11 lab=CC}
 C {devices/vsource.sym} 70 -80 0 0 {name=VS value=0}
 C {sky130_fd_pr/nfet_01v8.sym} -15 -45 0 0 {name=M2
 L=0.15
-W=10
+W=20
 nf=1 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 

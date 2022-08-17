@@ -25,13 +25,23 @@ lab=#net5}
 N -40 -410 -0 -410 {
 lab=#net5}
 N -570 -290 -510 -290 { lab=VP_driveb}
+N -70 -170 -10 -170 {
+lab=CC}
+N -10 -190 50 -190 {
+lab=C1}
+N -70 -200 -70 -170 {
+lab=CC}
+N -10 -200 -10 -190 {
+lab=C1}
 C {devices/code_shown.sym} 10 -90 0 0 {name=SPICE only_toplevel=false value="
+.param Vhigh=1.8
+.param Vlow=0
 .tran 1ms 10ms uic
 .save all"
 }
 C {otg.sym} -140 -320 0 0 {name=X1}
 C {devices/vsource.sym} -250 -290 0 0 {name=Vin value=1}
-C {devices/vsource.sym} -320 -200 0 0 {name=Vref value=0.8}
+C {devices/vsource.sym} -320 -200 0 0 {name=Vref value=0.5}
 C {devices/vsource.sym} 0 -380 0 0 {name=VDD value=1.8}
 C {devices/vsource.sym} -160 -170 0 0 {name=Vcb value=0.5}
 C {devices/vsource.sym} -510 -260 0 0 {name=VP_driveb value="PULSE (0 1 0 0.01us 0.01us 1ms 2ms)"}
@@ -55,3 +65,5 @@ C {devices/gnd.sym} -160 -140 0 0 {name=l5 lab=GND}
 C {devices/gnd.sym} 0 -350 0 0 {name=l6 lab=GND}
 C {devices/vsource.sym} -180 -230 0 0 {name=VZCD value="PULSE (0 1 0 0.01us 0.01us 1ms 3ms)"}
 C {devices/ipin.sym} -560 -290 0 0 {name=p6 lab=VP_driveb}
+C {devices/opin.sym} -10 -170 0 0 {name=p1 lab=CC}
+C {devices/opin.sym} 50 -190 0 0 {name=p2 lab=C1}

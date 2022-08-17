@@ -30,8 +30,6 @@ N -655 -530 -620 -530 {
 lab=Pdriveb}
 N -467.5 -410 -432.5 -410 {
 lab=ZCD}
-N -765 -220 -765 -195 {
-lab=GND}
 N -765 -460 -765 -425 {
 lab=Vin}
 N -810 -460 -765 -460 {
@@ -116,10 +114,6 @@ N -640 -630 -240 -630 {
 lab=Pdriveb}
 N -240 -630 -240 -370 {
 lab=Pdriveb}
-N -520 -165 -430 -165 {
-lab=C1}
-N -390 -320 -390 -195 {
-lab=#net1}
 N -625 -320 -590 -320 {
 lab=#net3}
 N -505 -320 -490 -320 {
@@ -128,10 +122,6 @@ N -670 -360 -550 -360 {
 lab=VDD}
 N -75 -420 -75 -405 {
 lab=VDD}
-N -493.75 -165 -493.75 -109.375 {
-lab=C1}
-N -493.75 -109.375 -477.5 -109.375 {
-lab=C1}
 N -477.5 -110 -477.5 -109.375 {
 lab=C1}
 N -477.5 -110 -475 -110 {
@@ -140,6 +130,44 @@ N -335 -285 -290 -285 {
 lab=CC}
 N -75 -405 -75 -375 {
 lab=VDD}
+N -765 -226.25 -765 -195 {
+lab=GND}
+N -390 -205 -390 -195 {
+lab=#net1}
+N -390 -265 -390 -205 {
+lab=#net1}
+N -390 -320 -390 -260 {
+lab=#net1}
+N -470 -165 -470 -135 {
+lab=GND}
+N -720 -165 -520 -165 {
+lab=C1}
+N -520 -165 -510 -165 {
+lab=C1}
+N -470 -195 -390 -195 {
+lab=#net1}
+N -460 -165 -430 -165 {
+lab=C1}
+N -460 -175 -460 -165 {
+lab=C1}
+N -510 -175 -460 -175 {
+lab=C1}
+N -510 -175 -510 -165 {
+lab=C1}
+N -545 -110 -495 -110 {
+lab=C1}
+N -545 -165 -545 -110 {
+lab=C1}
+N -495 -110 -475 -110 {
+lab=C1}
+N -440 -180 -440 -165 {
+lab=C1}
+N -440 -180 -380 -180 {
+lab=C1}
+N -390 -195 -340 -195 {
+lab=#net1}
+N -380 -180 -380 -165 {
+lab=C1}
 C {devices/code_shown.sym} 275 -110 0 0 {name=SPICE only_toplevel=false value="
 .tran 1ms 10ms uic
 .save all"
@@ -164,7 +192,7 @@ C {devices/gnd.sym} -765 -195 0 0 {name=l7 lab=GND}
 C {devices/ipin.sym} -810 -460 0 0 {name=p7 lab=Vin}
 C {devices/capa.sym} -270 -165 0 0 {name=C1
 m=1
-value=1u
+value=2n
 footprint=1206
 device="ceramic capacitor"}
 C {devices/gnd.sym} -390 -135 0 0 {name=l8 lab=GND}
@@ -192,11 +220,36 @@ C {inverter.sym} -770 -320 0 0 {name=X4}
 C {inverter.sym} -650 -320 0 0 {name=X7}
 C {devices/opin.sym} -475 -110 0 0 {name=p6 lab=C1}
 C {devices/opin.sym} -290 -285 0 0 {name=p11 lab=CC}
-C {devices/vsource.sym} -520 -135 0 0 {name=Bcl value="V = V(Csense) > V(Vin_div) ? Vhigh : Vlow"}
-C {devices/gnd.sym} -520 -105 0 0 {name=l1 lab=GND}
+C {devices/vsource.sym} -720 -135 0 0 {name=Bcl value="V = V(Csense) > V(Vin_div) ? Vhigh : Vlow"}
+C {devices/gnd.sym} -720 -105 0 0 {name=l1 lab=GND}
+C {devices/res.sym} -765 -395 0 0 {name=R1
+value=10k
+footprint=1206
+device=resistor
+m=1}
+C {devices/res.sym} -765 -255 0 0 {name=R2
+value=10k
+footprint=1206
+device=resistor
+m=1}
+C {devices/gnd.sym} -470 -135 0 0 {name=l2 lab=GND}
+C {sky130_fd_pr/nfet_01v8_lvt.sym} -490 -165 0 0 {name=M3
+L=0.15
+W=20
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=nfet_01v8_lvt
+spiceprefix=X
+}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} -95 -375 0 0 {name=M2
 L=0.35
-W=1
+W=10
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -208,17 +261,3 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X
 }
-C {sky130_fd_pr/res_high_po_5p73.sym} -765 -395 0 0 {name=R1
-W=5.73
-L=5
-model=res_high_po_5p73
-spiceprefix=X
-mult=1}
-C {devices/gnd.sym} -785 -395 0 0 {name=l2 lab=GND}
-C {sky130_fd_pr/res_high_po_5p73.sym} -765 -250 0 0 {name=R2
-W=5.73
-L=5
-model=res_high_po_5p73
-spiceprefix=X
-mult=1}
-C {devices/gnd.sym} -785 -250 0 0 {name=l3 lab=GND}
